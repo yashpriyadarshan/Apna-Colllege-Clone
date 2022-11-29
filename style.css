@@ -1,0 +1,68 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1.a {
+    font-family: "Audiowide", sans-serif;
+    text-align: left;
+    color: gray;
+    font-size: 175%;
+}
+h1.b {
+    text-align: left;
+    color: black;
+    font-size: 170%;
+}
+h1.c {
+    color: grey;
+    font-size: 125%;
+    text-align: left;
+}
+h1.d {
+    text-align: center;
+    font-size: 130%;
+    color: #8088ff;
+}
+h1.e {
+    text-align: center;
+    font-size: 160%;
+}
+h1.f {
+    text-align: left;
+}
+th {
+    vertical-align: top;
+}
+
+.tablex {
+    background-color: #EBEBEB;
+}
+
+.tabley {
+    background-color: #EBEBEB;
+}
+
+div.a {
+    text-align: center;
+    font-size: 130%;
+}
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+}
+div.b {
+    text-align: center;
+    font-size: 150%;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
